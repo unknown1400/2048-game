@@ -66,7 +66,7 @@ addEventListener('keyup',(e)=>{
     }
     document.getElementById("high-score").innerText = "High Score: " + highScore;
     
-});b
+});
 document.addEventListener('keydown',(e)=>{
 //preventing default action of arrow keys
     if (["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(e.code)) {
@@ -152,7 +152,7 @@ function slideDown() {
 function set_two() {
     if (!hasEmptyTile()){
         alert("Game Over! Your score is: " + score);
-        window.location.href="game.html"; // reload the game
+        window.location.href="index.html"; // reload the game
        
            return;
 
